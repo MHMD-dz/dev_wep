@@ -1,0 +1,25 @@
+section div h1{
+    color: blue ;
+}
+
+.kn {
+    color: rgb(202, 2, 186);
+}
+
+#html , .c {
+    color: aqua;
+}
+.css , #java , #python{
+    color: red;
+}
+.cpp{
+    color: rgb(199, 199, 5);
+}
+
+section div p{
+    color: rgb(255, 0, 0);
+}
+.love{
+    color: rgb(36, 204, 45);
+}
+  
