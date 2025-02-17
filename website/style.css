@@ -1,9 +1,18 @@
-section div h1{
+.head{
     color: blue ;
+    border: solid 5px rgb(255, 0, 0);
+    width: 215px;
+    padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .kn {
     color: rgb(202, 2, 186);
+    border-bottom : solid 5px rgb(141, 43, 240);
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #html , .c {
@@ -18,8 +27,10 @@ section div h1{
 
 section div p{
     color: rgb(255, 0, 0);
+    margin: 1px 1px 1px 230px;
 }
 .love{
     color: rgb(36, 204, 45);
+    margin: 10px 1px 1px 230px;
 }
   
