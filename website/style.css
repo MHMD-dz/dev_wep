@@ -5,6 +5,7 @@
     padding: 1px;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .kn {
@@ -16,22 +17,27 @@
 }
 
 #html , .c {
-    color: aqua;
+    color: rgb(5, 239, 239);
 }
 .css , #java , #python{
     color: red;
 }
 .cpp{
-    color: rgb(199, 199, 5);
+    color: rgb(222, 174, 2);
 }
 
 .para {
     background-color: rgb(0, 170, 255);
     max-width: 1000px;
+    border-radius: 50px 10px;
+    padding: 15px;
 }
 .para2 {
     background-color: rgb(254, 15, 15);
-    min-width: 1000px;
+    min-width: 500px;
+    max-width: 1000px;
+    border-radius: 10px 50px;
+    padding: 15px;
 }
 
 .hate {
@@ -42,4 +48,12 @@
     color: rgb(36, 204, 45);
     margin: 10px 1px 1px 230px;
 }
-  
+
+.ul {
+    background-color: rgb(214, 232, 246);
+    padding: 10px ;
+    padding-left: 30px;
+    width: 120px;
+    border-radius: 40px 10px ;
+
+}
