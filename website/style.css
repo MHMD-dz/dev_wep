@@ -1,4 +1,4 @@
-.head{
+.head , .hihi{
     color: blue ;
     border: solid 5px rgb(255, 0, 0);
     width: 215px;
@@ -25,7 +25,16 @@
     color: rgb(199, 199, 5);
 }
 
-section div p{
+.para {
+    background-color: rgb(0, 170, 255);
+    max-width: 1000px;
+}
+.para2 {
+    background-color: rgb(254, 15, 15);
+    min-width: 1000px;
+}
+
+.hate {
     color: rgb(255, 0, 0);
     margin: 1px 1px 1px 230px;
 }
