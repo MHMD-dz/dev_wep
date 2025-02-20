@@ -42,11 +42,12 @@
 
 .hate {
     color: rgb(255, 0, 0);
-    margin: 1px 1px 1px 230px;
+    text-align: center;
 }
 .love{
     color: rgb(36, 204, 45);
-    margin: 10px 1px 1px 230px;
+    margin: 10px 1px 1px 1px;
+    text-align: center;
 }
 
 .ul {
