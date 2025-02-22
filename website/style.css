@@ -68,3 +68,24 @@
     margin-left: auto;
     margin-right: auto;
 }
+.decor {
+    color: rgb(145, 203, 253);
+    border: solid 5px rgb(91, 175, 248);
+    width: 160px;
+    padding: 3px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.allpar{
+    background-color: rgb(200, 229, 255);
+    margin-left: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px ;
+    width: 450px;
+}
+.par1{
+    text-decoration-line:line-through overline underline ;
+    text-decoration-color: rgb(255, 0, 0);
+}
