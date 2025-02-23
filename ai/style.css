@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00008B; /* لون الخلفية الزرقاء الداكنة في الصورة */
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin: 0;
+    font-weight: bold;
+}
+
+header h2 {
+    font-size: 16px;
+    margin: 5px 0;
+    font-weight: normal;
+}
+
+.legend {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.legend-item {
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.course { background-color: #FF0000; color: white; } /* أحمر لـ Cour */
+.td { background-color: #808080; color: white; } /* رمادي لـ TD */
+.tp { background-color: #90EE90; color: black; } /* أخضر فاتح لـ TP */
+
+.schedule {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.day {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    color: black;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.day h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.time-slot {
+    margin: 5px 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-left: 5px;
+    min-width: 80px;
+    text-align: center;
+}
+
+.course { background-color: #FF0000; color: white; } /* أحمر لـ Cour */
+.td { background-color: #808080; color: white; } /* رمادي لـ TD */
+.tp { background-color: #90EE90; color: black; } /* أخضر فاتح لـ TP */
+
+/* لون خاص ليوم الأحد */
+.dimanche { background-color: #ADD8E6; } /* أزرق فاتح */
+.lundi, .mardi, .mercredi, .jeudi { background-color: white; }
